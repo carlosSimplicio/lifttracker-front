@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  --background-color: #02000a;
+  --highlight-color: #a97ae6;
+  --text-color: #fff;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

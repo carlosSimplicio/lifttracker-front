@@ -1,0 +1,29 @@
+.navbar-container {
+  padding-block: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-container {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--highlight-color);
+}
+
+.title-container h1 {
+  font-size: 3rem;
+}
+
+.title-container h2 {
+  font-size: 1rem;
+}
