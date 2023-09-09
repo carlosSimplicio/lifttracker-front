@@ -1,0 +1,9 @@
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: var(--highlight-color);
+  color: var(--text-color);
+  border-radius: 5px;
+  font-size: 1.1rem;
+}

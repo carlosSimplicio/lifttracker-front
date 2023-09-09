@@ -1,0 +1,42 @@
+.table-outer-container {
+  width: 100%;
+}
+.table-inner-container {
+  background-color: #252b2e;
+  font-color: var(--text-color);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.table-inner-container a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.table-inner-container > * {
+  place-self: center;
+}
+
+.table-title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.table-column {
+  padding-block: 0.5rem;
+  font-size: 1.35rem;
+  background-color: #8faccc;
+  width: 100%;
+  text-align: center;
+}
+
+.table-row {
+  padding-block: 0.25rem;
+  font-size: 1.1rem;
+  width: 100%;
+  text-align: center;
+}
